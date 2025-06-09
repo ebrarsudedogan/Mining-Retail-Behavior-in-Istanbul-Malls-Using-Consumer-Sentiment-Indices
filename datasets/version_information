@@ -1,10 +1,10 @@
 v0 = raw data which is obtained from the "https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset"
         and "https://data.tuik.gov.tr/Bulten/Index?p=Ekonomik-Guven-Endeksi-Mayis-2025-54101"
 v1 = date version is transformed from DD-MM-YY to YYYY-MM-DD
-v2 = season is added
-v3 = is_weekday column is added
-v4 = is_holiday column is added
-v5 = economic indicators are added
+v2 = 'season' column is added
+v3 = 'is_weekday' column is added
+v4 = 'is_holiday' column is added
+v5 = economic indicators' columns are added by their date equality
     Econ_Conf: Economic confidence index
     Cons_Conf: Consumer confidence index
     RealSec_Conf: Real sector confidence index
