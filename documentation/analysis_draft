@@ -1,0 +1,52 @@
+03 — Customer Analyses
+age ↔ total_spend → Does basket size increase with age?
+age ↔ transaction_count → Do younger or older customers shop more frequently?
+gender ↔ total_spend → Is there a difference in spending levels between men and women?
+gender ↔ payment_method → Does gender influence payment method preference?
+age_group ↔ Econ_Conf_level → Do different age groups respond differently to economic fluctuations?
+gender ↔ Econ_Conf_level → Do genders respond differently to economic fluctuations?
+gender ↔ category preference → Do men and women prefer different product categories?
+age ↔ category preference → Are there significant differences in category preferences by age?
+
+04 — Shopping Mall Analyses
+shopping_mall ↔ total_spend → Which shopping mall generates the highest revenue?
+shopping_mall ↔ avg_basket_value → Does average basket size vary between malls?
+shopping_mall ↔ transaction_count → What is the traffic volume per mall?
+shopping_mall ↔ season → Does mall performance vary by season?
+shopping_mall ↔ day-of-week → Weekly traffic patterns by mall.
+shopping_mall ↔ Econ_Conf_level → How resilient is each mall to declining consumer confidence?
+shopping_mall ↔ category preference → Which mall is preferred for which product category?
+
+05 — Product & Basket Analysis
+category ↔ gender → Does gender influence category preference?
+category ↔ payment_method → Does payment method affect category choice?
+category ↔ Econ_Conf_level → Which categories are hit hardest when consumer confidence drops?
+luxury_category_flag ↔ Econ_Conf_change_pct → How sensitive is luxury spending to declines in the confidence index?
+
+06 — Payment Behavior
+payment_method ↔ invoice_date → How have payment method shares evolved over time?
+payment_method ↔ gender → Payment method distribution by gender.
+payment_method ↔ Econ_Conf_level → Does card usage increase when consumer confidence drops?
+payment_method ↔ category → Does payment choice vary by product category?
+payment_method ↔ basket_total_price → Which payment methods are used for high-value baskets?
+credit_card_share ↔ Econ_Conf(lag 0/+1) → Does credit card usage respond immediately or with delay to changes in the confidence index?
+
+07 — Impact of Economic Index
+Various indices ↔ daily_total_spend → Which index is most strongly correlated with sales?
+Econ_Conf(lag ±1/±3) ↔ total_spend → Is there a causal (leading/lagging) relationship?
+Econ_Conf_threshold (≤90/>90) ↔ payment_method_distribution → Does crossing the confidence threshold change payment behavior?
+Econ_Conf_change_pct ↔ luxury_vs_basic_spend → How does an index drop affect the ratio of luxury to basic spending?
+Econ_Conf ↔ customer_segment_high vs low → Does index volatility impact spending differently across customer segments?
+
+02 — Temporal Trends
+invoice_date ↔ daily_total_spend → How does daily revenue fluctuate over time? Are there general trends?
+invoice_date ↔ daily_transaction_count → Is transaction volume seasonal? Which periods show increases/decreases?
+invoice_date (weekly) ↔ weekly_total_spend → Reduce noise and observe weekly sales momentum.
+season ↔ total_spend → Are seasonal spending differences statistically significant?
+season ↔ transaction_count → Do seasons affect transaction volume?
+is_weekday ↔ total_spend → Is there a significant difference in revenue and transactions between weekdays and weekends?
+is_holiday ↔ total_spend → Do public holidays boost or reduce sales?
+Econ_Conf (lag 0/+1/+3) ↔ total_spend → How many months does it take for changes in consumer confidence to impact sales?
+Retail_Conf (lag 0/+1/+3) ↔ total_spend → Is retail confidence aligned with sales trends?
+day-of-week ↔ total_spend → Which day of the week generates the highest revenue?
+day-of-week ↔ transaction_count → Which day of the week sees the most shopping activity?
