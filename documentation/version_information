@@ -11,3 +11,11 @@ v5 = economic indicators' columns are added by their date equality
     Serv_Conf: Services confidence index
     Retail_Conf: Retail trade confidence index
     Constr_Conf: Construction confidence index
+v6 = 'total_price' column added
+v7 (weekly) = Weekly-resolution dataset – data aggregated by week_key; numeric cols summed/averaged, categoricals converted to weekly frequency counts
+v8 (monthly) = Monthly-resolution dataset – data aggregated by month_key; same aggregation logic, saved as monthly CSV
+v9 (yearly) = Yearly-resolution dataset – data aggregated by year_key; season column excluded, numeric aggregated, categoricals as yearly frequency counts
+v10 = Services, Retail Trade, and Construction Confidence indices were dropped from v6.
+v11 (weekly) = Services, Retail Trade, and Construction Confidence indices were dropped from v7_weekly.
+v12 (monthly) = Services, Retail Trade, and Construction Confidence indices were dropped from v8_monthly.
+v13 (yearly) = Services, Retail Trade, and Construction Confidence indices were dropped from v9_yearly.

@@ -17,6 +17,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/datasets/customer_shopping_data_v10.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/datasets/customer_shopping_data_v11_weekly.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/datasets/customer_shopping_data_v2.csv">
           <value>
             <Attribute>
@@ -39,6 +53,27 @@
           </value>
         </entry>
         <entry key="/datasets/customer_shopping_data_v5.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/datasets/customer_shopping_data_v7_weekly.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/datasets/customer_shopping_data_v8_monthly.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/datasets/customer_shopping_data_v9_yearly.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
