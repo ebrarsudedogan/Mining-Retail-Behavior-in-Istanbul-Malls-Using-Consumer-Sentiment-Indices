@@ -19,3 +19,7 @@ v10 = Services, Retail Trade, and Construction Confidence indices were dropped f
 v11 (weekly) = Services, Retail Trade, and Construction Confidence indices were dropped from v7_weekly.
 v12 (monthly) = Services, Retail Trade, and Construction Confidence indices were dropped from v8_monthly.
 v13 (yearly) = Services, Retail Trade, and Construction Confidence indices were dropped from v9_yearly.
+v14 = Bloomberg, OECD, and Ipsos Confidence indices were added to v10.
+v15 (weekly) = Bloomberg, OECD, and Ipsos Confidence indices were added to v11_weekly.
+v16 (monthly) = Bloomberg, OECD, and Ipsos Confidence indices were added to v12_monthly.
+v17 (yearly) = Bloomberg, OECD, and Ipsos Confidence indices were added to v13_yearly.
