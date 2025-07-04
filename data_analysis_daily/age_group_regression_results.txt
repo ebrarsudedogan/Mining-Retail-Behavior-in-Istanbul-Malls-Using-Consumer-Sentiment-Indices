@@ -1,0 +1,693 @@
+
+======================================================================
+Age Group: [28, 33)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.166
+Model:                            OLS   Adj. R-squared:                  0.130
+Method:                 Least Squares   F-statistic:                     4.584
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0431
+Time:                        21:35:28   Log-Likelihood:                -8.1334
+No. Observations:                  25   AIC:                             20.27
+Df Residuals:                      23   BIC:                             22.70
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1151      0.070      1.647      0.113      -0.030       0.260
+macro_confidence    -0.1683      0.079     -2.141      0.043      -0.331      -0.006
+==============================================================================
+Omnibus:                       27.181   Durbin-Watson:                   1.196
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               56.237
+Skew:                          -2.050   Prob(JB):                     6.14e-13
+Kurtosis:                       9.098   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for transactions (p=0.043)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.013
+Model:                            OLS   Adj. R-squared:                 -0.030
+Method:                 Least Squares   F-statistic:                    0.3051
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):              0.586
+Time:                        21:35:28   Log-Likelihood:                -13.244
+No. Observations:                  25   AIC:                             30.49
+Df Residuals:                      23   BIC:                             32.93
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0941      0.086      1.097      0.284      -0.083       0.272
+macro_confidence     0.0533      0.096      0.552      0.586      -0.146       0.253
+==============================================================================
+Omnibus:                       23.184   Durbin-Watson:                   1.042
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               36.380
+Skew:                          -1.905   Prob(JB):                     1.26e-08
+Kurtosis:                       7.518   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+❌ Not significant for spend (p=0.586)
+
+======================================================================
+Age Group: [18, 23)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.296
+Model:                            OLS   Adj. R-squared:                  0.266
+Method:                 Least Squares   F-statistic:                     9.675
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):            0.00492
+Time:                        21:35:28   Log-Likelihood:                -6.7917
+No. Observations:                  25   AIC:                             17.58
+Df Residuals:                      23   BIC:                             20.02
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1123      0.066      1.695      0.104      -0.025       0.249
+macro_confidence    -0.2317      0.074     -3.111      0.005      -0.386      -0.078
+==============================================================================
+Omnibus:                       35.307   Durbin-Watson:                   1.173
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              102.219
+Skew:                          -2.583   Prob(JB):                     6.36e-23
+Kurtosis:                      11.452   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for transactions (p=0.005)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.370
+Model:                            OLS   Adj. R-squared:                  0.343
+Method:                 Least Squares   F-statistic:                     13.54
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):            0.00124
+Time:                        21:35:28   Log-Likelihood:                -6.2420
+No. Observations:                  25   AIC:                             16.48
+Df Residuals:                      23   BIC:                             18.92
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1031      0.065      1.590      0.126      -0.031       0.237
+macro_confidence    -0.2681      0.073     -3.679      0.001      -0.419      -0.117
+==============================================================================
+Omnibus:                       17.897   Durbin-Watson:                   1.265
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.356
+Skew:                          -1.703   Prob(JB):                     3.80e-05
+Kurtosis:                       5.817   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for spend (p=0.001)
+
+======================================================================
+Age Group: [63, 68)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.282
+Model:                            OLS   Adj. R-squared:                  0.251
+Method:                 Least Squares   F-statistic:                     9.045
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):            0.00628
+Time:                        21:35:28   Log-Likelihood:                -5.6688
+No. Observations:                  25   AIC:                             15.34
+Df Residuals:                      23   BIC:                             17.78
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1169      0.063      1.845      0.078      -0.014       0.248
+macro_confidence    -0.2142      0.071     -3.008      0.006      -0.362      -0.067
+==============================================================================
+Omnibus:                       39.925   Durbin-Watson:                   1.225
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              133.695
+Skew:                          -2.944   Prob(JB):                     9.30e-30
+Kurtosis:                      12.678   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for transactions (p=0.006)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.281
+Model:                            OLS   Adj. R-squared:                  0.250
+Method:                 Least Squares   F-statistic:                     8.992
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):            0.00641
+Time:                        21:35:28   Log-Likelihood:                -10.728
+No. Observations:                  25   AIC:                             25.46
+Df Residuals:                      23   BIC:                             27.89
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0894      0.078      1.152      0.261      -0.071       0.250
+macro_confidence    -0.2615      0.087     -2.999      0.006      -0.442      -0.081
+==============================================================================
+Omnibus:                        7.211   Durbin-Watson:                   1.015
+Prob(Omnibus):                  0.027   Jarque-Bera (JB):                5.148
+Skew:                          -1.012   Prob(JB):                       0.0762
+Kurtosis:                       3.920   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for spend (p=0.006)
+
+======================================================================
+Age Group: [53, 58)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.130
+Model:                            OLS   Adj. R-squared:                  0.093
+Method:                 Least Squares   F-statistic:                     3.449
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0761
+Time:                        21:35:28   Log-Likelihood:                -10.230
+No. Observations:                  25   AIC:                             24.46
+Df Residuals:                      23   BIC:                             26.90
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1368      0.076      1.800      0.085      -0.020       0.294
+macro_confidence    -0.1588      0.085     -1.857      0.076      -0.336       0.018
+==============================================================================
+Omnibus:                       38.860   Durbin-Watson:                   1.118
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              132.534
+Skew:                          -2.809   Prob(JB):                     1.66e-29
+Kurtosis:                      12.781   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+⚠️ Marginally significant for transactions (trend-level evidence) (p=0.076)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.179
+Model:                            OLS   Adj. R-squared:                  0.143
+Method:                 Least Squares   F-statistic:                     5.009
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0352
+Time:                        21:35:28   Log-Likelihood:                -9.3966
+No. Observations:                  25   AIC:                             22.79
+Df Residuals:                      23   BIC:                             25.23
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0944      0.074      1.283      0.212      -0.058       0.246
+macro_confidence    -0.1850      0.083     -2.238      0.035      -0.356      -0.014
+==============================================================================
+Omnibus:                        7.882   Durbin-Watson:                   1.710
+Prob(Omnibus):                  0.019   Jarque-Bera (JB):                6.162
+Skew:                          -0.847   Prob(JB):                       0.0459
+Kurtosis:                       4.746   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for spend (p=0.035)
+
+======================================================================
+Age Group: [48, 53)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.118
+Model:                            OLS   Adj. R-squared:                  0.080
+Method:                 Least Squares   F-statistic:                     3.078
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0927
+Time:                        21:35:28   Log-Likelihood:                -10.790
+No. Observations:                  25   AIC:                             25.58
+Df Residuals:                      23   BIC:                             28.02
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1116      0.078      1.435      0.165      -0.049       0.272
+macro_confidence    -0.1534      0.087     -1.754      0.093      -0.334       0.027
+==============================================================================
+Omnibus:                       21.779   Durbin-Watson:                   1.039
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               33.006
+Skew:                          -1.788   Prob(JB):                     6.81e-08
+Kurtosis:                       7.347   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+⚠️ Marginally significant for transactions (trend-level evidence) (p=0.093)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.083
+Model:                            OLS   Adj. R-squared:                  0.044
+Method:                 Least Squares   F-statistic:                     2.093
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):              0.161
+Time:                        21:35:28   Log-Likelihood:                -14.919
+No. Observations:                  25   AIC:                             33.84
+Df Residuals:                      23   BIC:                             36.28
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0943      0.092      1.028      0.315      -0.095       0.284
+macro_confidence    -0.1492      0.103     -1.447      0.161      -0.362       0.064
+==============================================================================
+Omnibus:                        0.891   Durbin-Watson:                   0.974
+Prob(Omnibus):                  0.640   Jarque-Bera (JB):                0.664
+Skew:                          -0.382   Prob(JB):                        0.718
+Kurtosis:                       2.765   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+❌ Not significant for spend (p=0.161)
+
+======================================================================
+Age Group: [68, 70)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.233
+Model:                            OLS   Adj. R-squared:                  0.199
+Method:                 Least Squares   F-statistic:                     6.981
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0146
+Time:                        21:35:28   Log-Likelihood:                -11.438
+No. Observations:                  25   AIC:                             26.88
+Df Residuals:                      23   BIC:                             29.31
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0813      0.080      1.019      0.319      -0.084       0.246
+macro_confidence    -0.2370      0.090     -2.642      0.015      -0.423      -0.051
+==============================================================================
+Omnibus:                       13.671   Durbin-Watson:                   1.151
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               12.779
+Skew:                          -1.488   Prob(JB):                      0.00168
+Kurtosis:                       4.849   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for transactions (p=0.015)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.208
+Model:                            OLS   Adj. R-squared:                  0.173
+Method:                 Least Squares   F-statistic:                     6.027
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0221
+Time:                        21:35:29   Log-Likelihood:                -10.162
+No. Observations:                  25   AIC:                             24.32
+Df Residuals:                      23   BIC:                             26.76
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0897      0.076      1.183      0.249      -0.067       0.247
+macro_confidence    -0.2093      0.085     -2.455      0.022      -0.386      -0.033
+==============================================================================
+Omnibus:                        1.711   Durbin-Watson:                   1.219
+Prob(Omnibus):                  0.425   Jarque-Bera (JB):                1.457
+Skew:                           0.453   Prob(JB):                        0.483
+Kurtosis:                       2.239   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for spend (p=0.022)
+
+======================================================================
+Age Group: [58, 63)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.047
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     1.126
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):              0.300
+Time:                        21:35:29   Log-Likelihood:                -11.773
+No. Observations:                  25   AIC:                             27.55
+Df Residuals:                      23   BIC:                             29.98
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1293      0.081      1.599      0.123      -0.038       0.297
+macro_confidence    -0.0965      0.091     -1.061      0.300      -0.285       0.092
+==============================================================================
+Omnibus:                       24.083   Durbin-Watson:                   0.922
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               45.753
+Skew:                          -1.811   Prob(JB):                     1.16e-10
+Kurtosis:                       8.551   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+❌ Not significant for transactions (p=0.300)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.043
+Method:                 Least Squares   F-statistic:                  0.008705
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):              0.926
+Time:                        21:35:29   Log-Likelihood:                -13.733
+No. Observations:                  25   AIC:                             31.47
+Df Residuals:                      23   BIC:                             33.90
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0839      0.087      0.960      0.347      -0.097       0.265
+macro_confidence    -0.0092      0.098     -0.093      0.926      -0.213       0.194
+==============================================================================
+Omnibus:                        7.838   Durbin-Watson:                   1.005
+Prob(Omnibus):                  0.020   Jarque-Bera (JB):                5.739
+Skew:                          -0.975   Prob(JB):                       0.0567
+Kurtosis:                       4.307   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+❌ Not significant for spend (p=0.926)
+
+======================================================================
+Age Group: [33, 38)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.113
+Model:                            OLS   Adj. R-squared:                  0.074
+Method:                 Least Squares   F-statistic:                     2.929
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):              0.100
+Time:                        21:35:29   Log-Likelihood:                -11.169
+No. Observations:                  25   AIC:                             26.34
+Df Residuals:                      23   BIC:                             28.78
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1243      0.079      1.575      0.129      -0.039       0.288
+macro_confidence    -0.1519      0.089     -1.711      0.100      -0.335       0.032
+==============================================================================
+Omnibus:                       36.227   Durbin-Watson:                   0.931
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              108.044
+Skew:                          -2.654   Prob(JB):                     3.46e-24
+Kurtosis:                      11.692   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+❌ Not significant for transactions (p=0.100)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.042
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     1.002
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):              0.327
+Time:                        21:35:29   Log-Likelihood:                -16.251
+No. Observations:                  25   AIC:                             36.50
+Df Residuals:                      23   BIC:                             38.94
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0862      0.097      0.891      0.382      -0.114       0.286
+macro_confidence    -0.1089      0.109     -1.001      0.327      -0.334       0.116
+==============================================================================
+Omnibus:                       15.793   Durbin-Watson:                   0.622
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.493
+Skew:                          -1.399   Prob(JB):                     9.64e-05
+Kurtosis:                       6.150   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+❌ Not significant for spend (p=0.327)
+
+======================================================================
+Age Group: [23, 28)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.198
+Model:                            OLS   Adj. R-squared:                  0.164
+Method:                 Least Squares   F-statistic:                     5.693
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0257
+Time:                        21:35:29   Log-Likelihood:                -5.1775
+No. Observations:                  25   AIC:                             14.35
+Df Residuals:                      23   BIC:                             16.79
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1071      0.062      1.725      0.098      -0.021       0.236
+macro_confidence    -0.1666      0.070     -2.386      0.026      -0.311      -0.022
+==============================================================================
+Omnibus:                       21.062   Durbin-Watson:                   1.222
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.458
+Skew:                          -1.726   Prob(JB):                     1.48e-07
+Kurtosis:                       7.277   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for transactions (p=0.026)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.093
+Model:                            OLS   Adj. R-squared:                  0.053
+Method:                 Least Squares   F-statistic:                     2.355
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):              0.139
+Time:                        21:35:29   Log-Likelihood:                -14.567
+No. Observations:                  25   AIC:                             33.13
+Df Residuals:                      23   BIC:                             35.57
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1190      0.090      1.316      0.201      -0.068       0.306
+macro_confidence    -0.1560      0.102     -1.535      0.139      -0.366       0.054
+==============================================================================
+Omnibus:                        6.754   Durbin-Watson:                   0.714
+Prob(Omnibus):                  0.034   Jarque-Bera (JB):                4.742
+Skew:                          -0.815   Prob(JB):                       0.0934
+Kurtosis:                       4.376   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+❌ Not significant for spend (p=0.139)
+
+======================================================================
+Age Group: [38, 43)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.357
+Model:                            OLS   Adj. R-squared:                  0.329
+Method:                 Least Squares   F-statistic:                     12.77
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):            0.00161
+Time:                        21:35:29   Log-Likelihood:                -5.5917
+No. Observations:                  25   AIC:                             15.18
+Df Residuals:                      23   BIC:                             17.62
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1198      0.063      1.897      0.070      -0.011       0.250
+macro_confidence    -0.2538      0.071     -3.574      0.002      -0.401      -0.107
+==============================================================================
+Omnibus:                       34.586   Durbin-Watson:                   1.255
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               95.434
+Skew:                          -2.553   Prob(JB):                     1.89e-21
+Kurtosis:                      11.096   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for transactions (p=0.002)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.343
+Model:                            OLS   Adj. R-squared:                  0.314
+Method:                 Least Squares   F-statistic:                     12.00
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):            0.00210
+Time:                        21:35:29   Log-Likelihood:                -16.557
+No. Observations:                  25   AIC:                             37.11
+Df Residuals:                      23   BIC:                             39.55
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1044      0.098      1.066      0.297      -0.098       0.307
+macro_confidence    -0.3814      0.110     -3.464      0.002      -0.609      -0.154
+==============================================================================
+Omnibus:                        0.105   Durbin-Watson:                   0.756
+Prob(Omnibus):                  0.949   Jarque-Bera (JB):                0.307
+Skew:                          -0.098   Prob(JB):                        0.858
+Kurtosis:                       2.494   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for spend (p=0.002)
+
+======================================================================
+Age Group: [43, 48)
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.140
+Model:                            OLS   Adj. R-squared:                  0.102
+Method:                 Least Squares   F-statistic:                     3.732
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0658
+Time:                        21:35:29   Log-Likelihood:                -7.7269
+No. Observations:                  25   AIC:                             19.45
+Df Residuals:                      23   BIC:                             21.89
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1349      0.069      1.961      0.062      -0.007       0.277
+macro_confidence    -0.1494      0.077     -1.932      0.066      -0.309       0.011
+==============================================================================
+Omnibus:                       21.584   Durbin-Watson:                   1.204
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.847
+Skew:                          -1.796   Prob(JB):                     1.21e-07
+Kurtosis:                       7.204   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+⚠️ Marginally significant for transactions (trend-level evidence) (p=0.066)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.028
+Model:                            OLS   Adj. R-squared:                 -0.014
+Method:                 Least Squares   F-statistic:                    0.6722
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):              0.421
+Time:                        21:35:29   Log-Likelihood:                -10.573
+No. Observations:                  25   AIC:                             25.15
+Df Residuals:                      23   BIC:                             27.58
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1316      0.077      1.708      0.101      -0.028       0.291
+macro_confidence    -0.0711      0.087     -0.820      0.421      -0.250       0.108
+==============================================================================
+Omnibus:                        1.968   Durbin-Watson:                   1.253
+Prob(Omnibus):                  0.374   Jarque-Bera (JB):                0.769
+Skew:                          -0.335   Prob(JB):                        0.681
+Kurtosis:                       3.538   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+❌ Not significant for spend (p=0.421)

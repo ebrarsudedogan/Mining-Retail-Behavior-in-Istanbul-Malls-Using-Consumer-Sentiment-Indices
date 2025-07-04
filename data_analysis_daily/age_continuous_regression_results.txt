@@ -1,0 +1,63 @@
+
+======================================================================
+Continuous Age Analysis
+======================================================================
+
+
+Transaction Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      transactions_z_ma   R-squared:                       0.222
+Model:                            OLS   Adj. R-squared:                  0.189
+Method:                 Least Squares   F-statistic:                     6.576
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0173
+Time:                        21:35:28   Log-Likelihood:                -6.4590
+No. Observations:                  25   AIC:                             16.92
+Df Residuals:                      23   BIC:                             19.36
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1259      0.065      1.925      0.067      -0.009       0.261
+macro_confidence    -0.1885      0.074     -2.564      0.017      -0.341      -0.036
+==============================================================================
+Omnibus:                       46.525   Durbin-Watson:                   1.182
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              213.147
+Skew:                          -3.378   Prob(JB):                     5.20e-47
+Kurtosis:                      15.609   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for transactions (p=0.017)
+
+Spend Regression Summary:
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             spend_z_ma   R-squared:                       0.218
+Model:                            OLS   Adj. R-squared:                  0.184
+Method:                 Least Squares   F-statistic:                     6.425
+Date:                Sun, 29 Jun 2025   Prob (F-statistic):             0.0185
+Time:                        21:35:28   Log-Likelihood:                -7.2280
+No. Observations:                  25   AIC:                             18.46
+Df Residuals:                      23   BIC:                             20.89
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1193      0.067      1.769      0.090      -0.020       0.259
+macro_confidence    -0.1922      0.076     -2.535      0.019      -0.349      -0.035
+==============================================================================
+Omnibus:                       40.464   Durbin-Watson:                   1.214
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              142.218
+Skew:                          -2.956   Prob(JB):                     1.31e-31
+Kurtosis:                      13.079   Cond. No.                         1.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+✅ Significant for spend (p=0.019)

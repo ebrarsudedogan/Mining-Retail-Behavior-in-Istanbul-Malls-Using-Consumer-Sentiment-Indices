@@ -1,0 +1,139 @@
+LUDVIGSON
+
+University of Michigan ve conference board survey confidence indeksini kullanıyorlar ama çok az soru var bunda. benim kullandığım indeksler daha kapsamlı data topluyor .
+aslında bu survey ile yapılan çalışmaları kıyaslıyor gibi.
+Michigan conducts its survey by phone throughout most of the month. Its
+sample size is approximately 500; a preliminary mid-month release is based on
+about two-thirds of the full sample phone interviews conducted early in the month.
+Final figures for the full sample are subsequently made available at the end of the
+month and are not subject to further revision. The Conference Boarmail survey at the end of the prior month, and responses flow in throughout the
+survey month. The effective sample size is roughly 3,500 (of a total mailing of
+5,000). This sample of 5,000 is drawn from an original sample in which respondents
+agree to do the interviews
+yöntemleri ve sample size ları çok farklı
+
+istatistiksel olarak yorumluyor iki indeksi
+
+able 2 presents how well the consumer confidence surveys can forecast
+the growth of various categories of personal consumption expenditure.
+Following Bram and Ludvigson (1998), Table 2 measures the effect of con?
+sumer attitudes on five categories of household personal consumption expen?
+diture: total expenditure, motor vehicle expenditure, expenditure on all
+goods (excluding motor vehicles), expenditure on services and expenditure on
+durable goods excluding motor vehicles. The data, from the Bureau of Eco?
+nomic Analysis, span the period from the first quarter of 1968 to the fourth
+quarter of 2002; that is, the largest possible sample for which both indexes are
+available. benim gibi çeşitli ürünlerle şey yapıyorlar ama ürün yelpazesi ve farkları baya geniş. motorlu araç var mesela. hizmet fiyatlarını da dahil etmiş.
+regression kullanmış ben de kullandım
+
+ The next question is whether confi?
+dence measures contain predictive information that is not already contained in a
+standard set of baseline economic indicators. bunu anlamadım bu yok bence bende ama
+
+Here, I use the same baseline indicators that are common in previous work o
+the predictive power of consumer confidence surveys, like Carroll, Fuhrer an
+Wilcox (1994) and Bram and Ludvigson (1998). The baseline indicators are lagge
+values of the dependent variable, labor income growth, the (log) first difference
+the real stock price and the first difference of the three-month Treasury bill ra
+Labor income is defined as wages and salaries plus transfers minus personal contribu?
+tions for social insurance, as it appears in the quarterly components from the Depart
+ment of Commerce's National Income and Product Accounts. Stock prices are qu
+terly averages based on the Standard and P gelir ve fiyatlara değinmiş sanki burada biraz. bende de var.
+
+rs. For each category of consumption, the table presents the sum of t
+coefficients on the lags of each baseline variable and ^-values for the joint margi
+significance of the lags of each variable in p lag kullanmış ben lag bakmadım. p değerleri 0.05 in altında genelde güzel gibi
+
+
+The results indicate that both the Michigan and Conference Board overall
+indexes have modest incremental forecasting power for total personal consumer
+expenditure growth  bu sonuca varmış
+
+er Empirical Connections from Consumer Confidence to Consumption
+The analysis above uses historical data on consumption and income. Historical
+data on consumption and income become available as advanced estimates only with a one-month delay, and are subsequently revised twice over the following two
+months, with occasional "benchmark revisions" done approximately every five
+years. It thus leaves open questions about whether consumer confidence might be
+useful as a real-time predictor.5
+Some researchers have used historical data to explore the possibility that
+consumer confidence measures may improve forecasts because observations on
+sentiment for the first month of the quarter are available to predict the advanced
+estimate of the full-quarter value of consumption
+Does the output of consumer confidence surveys correspond to any well-
+defined economic concept that would help explain the modest predictive power
+consumer attitude
+If higher consumer confidence levels capture reduced uncertainty abo
+the future and therefore diminished the precautionary motive for saving, th
+higher consumer confidence should be associated with a higher level of co
+sumption today, relative to to
+Another interpretation of consumer confidence surveys is that they prim
+capture household expectations of future income or wealth. Of course, unde
+general version of the permanent income hypothesis, consumption should ch
+because of unexpected rises in permanent income. However, higher confide
+levels could be related to future consumption growth if households are liqu
+constrained so that greater income is closely tracked by greater consumption
+some households follow a "rule-of-thumb" of consuming some fraction of
+current income ever - sonuçlar ve sonuçlarr
+
+THE RELATIONSHIP BETWEEN SALES VOLUME
+AND CONSUMER CONFIDENCE INDEX IN THE
+TURKISH RETAIL INDUSTRY
+
+n this study, in order to identify the relationship between the retail sales
+volume and consumer confidence in Turkey based on data from the 2010Q1-
+2015Q4 period; the retail sales volume index (RSVI)3, the GDP per person with
+constant prices (GDP), consumer price index (CPI) and Consumer confidence
+index (CCI)4 were used as variables. ben de consumer conf index kullandım
+
+ben ekonomik şeylerle korelasyon falan bakmadım. sadece endeks ve alışveriş verisi vardı. ayrıca ben daha yakın tarihli araştırma yaptım. DAHA GÜNCELİM
+güven endekslerinin genel tüketime etkis iincelenmiş. artırdığını bulmuşlar. ben güven artınca tüketim azalıyor buldum :)
+farklı dönemleri incelediğimiz için farklı tepkiler olmuş olabilir. ayrıca benimki sadece istanbul verisi bu sanırım tüm türkiye
+
+Predicting Regional Economic Indices Using Big Data
+Of Individual Bank Card Transactions
+benim projeme göre tersten gidiyor. harcamadan endeks çıakrıyor gibi ama temelde aynı ilişki bnce
+
+We analyze the complete set of bank card transactions
+recorded by BBVA during 2011, all over Spain1 local yapıyotlar yine araştırmayı
+
+Transactions that are in our dataset were performed by
+proposed approach for teaching a model based on them.
+two groups of bank card users. The first one consists of
+BBVA direct customers, residents of Spain, who hold a
+4.1 Microeconomic indicators
+debit or credit card issued by BBVA. In 2011, the total
+number of active customers was around 4.5 million, alto-
+gether they executed more than 178 million transactions in
+over 1.2 million points of sale, spending over 10 billion eu-
+ros. The second group of bank card users includes over 8.6
+million foreign customers of all other banks abroad com-
+ing from 175 countries, who made purchases through one
+of the approximately 300 thousand BBVA card terminals.
+In total, they executed additional 17 million transactions,
+spending over 1.5 billion euro. muazzam bir dataları var. aslında kredi kartı harcamalarından yürütmek bu projeyi de güzel olabilirmiş. önerilerde bunu yazalım
+
+rom BBVA dataset of individual spending behavior for the
+period of one year, we extract 35 diﬀerent microeconomics
+indicators that explain economic behaviors from both cus-
+tomer and business sides (see Table 1). Before calculat-
+ing the aforementioned parameters, BBVA dataset had to
+be pre-processed in order to compensate for potential bias
+introduced by the spatial inhomogeneity of BBVA market
+share.  cidden big data paper ı.
+
+indikatörlerde alım kategoritleri var yine. petrol sağlık gibi büyük harcamalrı da kapsadığı için avm den daha güzel kapsamış harcamalraı
+gece gündüzü ayırmış yine avm olmadığı için
+
+GDP dahil etmiş. buradaki projelerde GDP ye bir değinme var. bende yok
+
+çok feature olunca tabii pca ile sadeleşmeye gitmiş çok krele olanlarda. biz de eledik bazı indisleri
+
+6 ekonomik indis tahmin etmişler. gdp housing ... falan
+
+Finally, the pro-
+posed model can be further employed for estimating more
+specific characteristics of local economic performance ad-
+dressing particular business needs. bunu önermişler biz de bunu yaptık zaten.
+
+doğru orantı mı ters orantı mı göremedim bu paperda.
+çok güzel paper keşke benim olsa

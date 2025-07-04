@@ -101,6 +101,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/datasets/customer_shopping_data_v6.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/datasets/customer_shopping_data_v7_weekly.csv">
           <value>
             <Attribute>

@@ -1,0 +1,125 @@
+Data mining and mall users profile (Delgado)
+
+The sample consisted of 411 men and 379 women,
+aged 16-56 years old (M = 35.87, SD = 9.74) from
+the Barcelona Metropolitan Area.    samplı ı küçük benden ama yine belli bir alandan toplamış
+
+A quota sampling by gender and age (Institut
+d’Estadística de Catalunya [IDESCAT, Catalan
+Institute of Statistics], 2006) was used.AGE VE GENDER I GÖZ ÖNÜNDE bulundurmuş benim gibi
+
+Anketle veri toplamış benim aksime e kişileri o da gruplara bölerek toplamış. ben de toplandıktan sonra gruplayaağım.
+
+the products that were established to
+test: music, perfumes and electronic products (e. g.,
+computer games). Among the products that were
+established to buy: food, leisure products, clothing,
+footwear and household items, perfumes and clean-
+ing products. Finally, the activities were: going for
+a walk, going to movies and eating out. benzerürünler kullanmış ama benimkinde etkinlik maksatlı şeyler yok. transaction olmayanları almadık.
+
+Data was analyzed with SPSS v.17.1. Given the
+sample size, we have maintained the algorithm
+stopping criteria established by the program, the
+minimum size of parent and child nodes being 100
+and 50 respectively, in order to overcome the poten-
+tial problems of violating the statistical assumption
+of normality (Bhattacharyya & Johnson, 1977) for
+ANOVA procedures.   özetle benden baya farklı ama biz de anova kullandık belli yerlerde.
+
+demografik özellikler ve avm alışkanlıklarının birbirleriyle ilişkisi incelenmiş. fiyat ya da ekonomik indikatör etkisi hiç dikkate alınmamış.
+
+An Empirical Study of Factors Influencing Consumers’ Purchasing
+Behaviours in Shopping Malls
+
+The purpose of this research is to create an instrument for developers and the mall management to enhance and
+“fine-tune” the performance of their unit in order to achieve the best result in this highly competitive market
+segment in Malaysia.    amaçları yine avm için bir öngörü yapmak bana benzer aslında
+
+This research uses quantitative
+approach and survey questionnaires to collect data. Survey questionnaires were designed to be handed out to
+respondents in the select shopping malls.  anket ile yapmışlar evet benden farklı olarak. bana benzer olarak birden çok avm var
+
+Prior to data collection, a pilot study was conducted with 25 respondents
+who were selected randomly from the selected shopping malls and five respondents who are the expert in the
+subject matter, and tested their understanding of the questionnaires.
+The questionnaires consisted of 31 items, where six items were about demographic information of the
+respondents, twenty items enquired about independent variables and five items about dependent variable.
+Research questionnaire were distributed by hand and in person by the authors to the consumers in the selected
+shopping malls and collected immediately after the respondents had filled out the questionnaires. A total of 240
+questionnaires were collected from the selected shopping malls. After the data screening process, 200 sets
+questionnaires were deemed usable and processed further for data analysis using SPSS. data setleri muhteşem derecede küçük. bunlar da spss ile analiz yapmış. spss sanırım biraz daha sosyal bilimciler tarafından kullanılan b,r metot. biz data miningciler için biraz fazla otomatize olduğunu düşünüyorum.
+
+For the reliability test, all of the variables gave the Cronbach’s alpha values greater than 0.9, indicating their good
+reliability (John, 2003; Dennick & Tavakol, 2011). Table 1 shows the reliability analysis of the variables
+presented in the study. reliability test ve normal dağılım check yapmışlar. i didnt.
+
+onların da orasal olarak yaklaşık %60 kadın benim de. ama ben evli olmalarıyla ilgilenmedim.
+
+Multiple regression was defined as a set of tools for studying the straight-line relationships among two or more
+variables. ben de regression kullandım bazı yerlerde multiple kullandım ama ben ekonomik indikatörler hariç ilişkileri çiftler arasında ele aldım
+
+Based on the regression analysis (refer to Table 2), the value of each hypotheses are significantly greater the
+zero. Hence, based on the statement from Stare (1995), when value is greater than zero, indicating that the
+predictors are able to account for a significant amount of variances. r kadre için demiş bunu da. keşke r2>0 yetse yorumlamaya.
+
+onlar da p=0.05 i kullanmış. bazı makroekonomik durumlar dışında ben de 0.05 kullandım bazı yerlerde 0.1 e esnettim.
+
+For this study, multiple regression analyses were conducted to examine the relationship between independent and
+dependent variables. According to West et al. (2003), multiple regression is regarded as an extension of basic
+linear regression.  benim bi bağımsızık analizim yok cano ya
+
+Based on the results listed in Table 3, the F-statistics of the model was found to be significant. The adjusted
+R-squared value indicated that the regression model which included the environmental related factors,
+service-related factors, administrative related factors as well as transportation and location related factors could
+explain 96.7% (0.967) variations in the dependent variable (consumer’s buying behaviour in shopping malls).
+Furthermore, Table 3 also presents the P value analyzed for each of the variables, where P ＜0.05 was
+considered to be significant benim f statistik kullanımım olmadı. aslında ols regression sonuçları var yorumlarken kullana da bilirim bilmiyorum.
+
+Hypotheses 1 (H1) postulated that the environmental relative factors, which include building structure,
+atmosphere, sounds and music and fragrance and smell have a positive relationship towards consumers’ buying
+behaviours within shopping malls. The results from the regression analyses presented in Table 3 show that the P
+value for the environmental related factors as a variable is 0.001, which is lower than the significant threshold of
+0.05. This finding indicated that this variable is significant in influencing the consumers’ buying behaviours
+within shopping malls. Therefore, the hypothesis 1 (H1) was accepted. This finding is supported by the earlier
+studies of Brengman et al. (2012) and Grimmer et al. (2016) that indicated that environmental related factors
+have positive effects on consumers’ purchase behaviours.
+Hypotheses 2 (H2) proposed that the services related factors, which are comprised of personal service, price,
+advertising and promotion have a positive relationship towards consumers’ buying behaviours within shopping
+malls. Based on the results from the regression analyses in Table 2, the P value obtained for this variable was P =
+0.791 which was greater than the significance threshold of 0.05. This result indicated that the correlation
+between the variable and consumers’ buying behaviours within shopping malls is not significant. Thus, the
+hypothesis 2 (H2) was rejected. This result is not concurrent with the earlier studies by Wong et al. (2012),
+Ala’Eddin (2012), Chebat et al. (2009) and Ahmed et al. (2007), as those studies stated that services related
+21
+ijms.ccsenet.org International Journal of Marketing Studies Vol. 13, No. 1; 2021
+factors had a significant effect on consumers’ buying behaviour within shopping malls. The difference between
+the previous studies and the current finding might be due to the time change factor and the change in the
+consumers’ perception on purchase and services expected to be available in shopping malls. Consumers
+nowadays may expect more services in shopping malls that were not available before, such as car wash services,
+luggage storage and locker services, smartphone charging services, among others.
+Hypotheses 3 (H3) argued that the administrative related factors comprised of tenant mix, anchor tenant and
+entertainment, have a positive relationship on consumers’ buying behaviours within shopping malls. However,
+based on the results of the regression analyses presented in Table 2, hypothesis 3 (H3) was rejected because the P
+value was 0.515, which was greater than the significance threshold of 0.05. This result shows that the variable
+was not significant in affecting the consumers’ buying behaviours in shopping malls. This finding is not in
+agreement with the previous studies by Srivastava and Srinivasan (2010), Rajagopal (2009) and Eric et al. (2005).
+Those earlier studies found that the administrative related factors have a significant effect on consumers’ buying
+behaviour in shopping malls. This seemingly contradictory finding might be due to the differences in the
+locations of the shopping malls where the studies were conducted. Another reason might arise from the
+consumers’ preferences and cultural factors. Differences in the consumers’ preferences and their cultural
+background can influence their choices of shops available in certain shopping malls.
+Hypotheses 4 (H4) asserted that the transportation and location related factors, which consist of parking,
+catchment area and accessibility have positive influences on consumers’ buying behaviours within the shopping
+malls. Based on the regression analyses in Table 2, the P value for the transportation and location related factors
+is 0.000, which is lower than the significance threshold (P＜0.05). This means that there is a significant
+relationship between transportation and location related factors and consumers’ buying behaviours in shopping
+malls. Therefore, hypothesis 4 (H4) was accepted. This finding is supported by the earlier studies by Saber et al.
+(2017), Samiran et al. (2015), Eddin (2012) and Prybutok and Qin (2009). They found that transportation and
+location related factors have a significant effect on consumers’ purchase behaviours in shopping malls.
+ben de bu şekilde hipotez kurarak yazacağım. bu da benzer.
+
+Mining the change of customer behavior in an internet shopping mall
+direkt zamana göre değişimden yola çıkmışlar. internet shopping mall kullanmışlar. ürünlerin çeşitli olması açısından benzer ama büyük farklılıkları olacaktır internet olmasının
+similarity distance measure ları var benim yok
+datadan tam bahsetmemişler sanki. çok ileri bir analiz change in data mining onaylı daha çok. benimki bu kadar ileri değil. datalardan alınan snapshotlar arasında bir geçiş yapmışlar.
