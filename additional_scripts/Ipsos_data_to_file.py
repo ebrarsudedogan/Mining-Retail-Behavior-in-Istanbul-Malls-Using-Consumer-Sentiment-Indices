@@ -1,3 +1,5 @@
+#written for create the csv file with ipsos data
+
 import csv
 
 data = [

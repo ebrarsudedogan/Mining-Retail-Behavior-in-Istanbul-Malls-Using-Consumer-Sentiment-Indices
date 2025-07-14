@@ -1,3 +1,5 @@
+#written for create the csv file with bloomberg data
+
 import pandas as pd
 
 

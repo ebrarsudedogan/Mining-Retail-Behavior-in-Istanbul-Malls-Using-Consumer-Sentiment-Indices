@@ -1,3 +1,5 @@
+dataset version'ları ve her versionda yapılan değişikliklere yer verilmiştir
+
 v0 = raw data which is obtained from the "https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset"
         and "https://data.tuik.gov.tr/Bulten/Index?p=Ekonomik-Guven-Endeksi-Mayis-2025-54101"
 v1 = date version is transformed from DD-MM-YY to YYYY-MM-DD
@@ -23,3 +25,9 @@ v14 = Bloomberg, OECD, and Ipsos Confidence indices were added to v10.
 v15 (weekly) = Bloomberg, OECD, and Ipsos Confidence indices were added to v11_weekly.
 v16 (monthly) = Bloomberg, OECD, and Ipsos Confidence indices were added to v12_monthly.
 v17 (yearly) = Bloomberg, OECD, and Ipsos Confidence indices were added to v13_yearly.
+v18 = Preprocessed dataset prepared for clustering and modeling tasks; IDs and non-predictive features (e.g., mall name, confidence indices) removed
+v19 = Categorical features (gender, payment_method, category, season) one-hot encoded (drop=first)
+v20 = All numerical features normalized using MinMaxScaler (range [0,1])
+v21 = Dimensionality reduced via PCA; number of components selected to retain at least 90% cumulative variance (resulted in 9 components)
+v22= Cluster işaretli PCA dataseti
+v23= Cluster işaretli normal dataset

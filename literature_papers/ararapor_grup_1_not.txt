@@ -1,3 +1,5 @@
+literatür taraması okuma esnasında alınan notlar (ara raporda bahsedilenler, finalde detaylı değinilecek)
+
 Data mining and mall users profile (Delgado)
 
 The sample consisted of 411 men and 379 women,

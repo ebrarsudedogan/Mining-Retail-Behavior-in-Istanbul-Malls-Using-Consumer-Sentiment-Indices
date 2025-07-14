@@ -1,4 +1,4 @@
-Analiz Sürecinin Ayrıntılı Açıklaması
+Analiz Sürecinin Ayrıntılı Açıklaması (Veri Kaynağı Üretim Günlüğü) (ChatGPT ile düzenlendi)
 
 Projeye başladığımda ilk olarak yaş değişkeninin toplam harcama üzerindeki etkisini değerlendirmek istedim. Bu amaçla yaş değişkenini sürekli biçimde kullanarak OLS regresyon modeli kurdum. Ancak modelden anlamlı bir sonuç çıkmadı. Bunun üzerine yaş değişkenini beşli gruplara binleyerek tekrar OLS regresyon gerçekleştirdim; fakat bu şekilde de kayda değer bir ilişki bulamadım. Ardından yaşın işlem sayısına etkisini incelemek için yine sürekli yaş değişkeniyle OLS regresyon kurdum ve sonuç yine anlamsız geldi. Daha sonra yaş gruplarını tekrar beşli binleyerek modele dahil ettim. Fakat burada gruplamada son grup yalnızca 69 yaşındaki tek gözlemden oluştuğu için OLS regresyonun duyarlılığı bozuldu. Bu nedenle OLS’ye alternatif olarak outlier’lara daha az duyarlı Robust regresyon yöntemine geçtim ve burada yaş ile işlem sayısı arasında ters yönlü anlamlı bir ilişki buldum.
 

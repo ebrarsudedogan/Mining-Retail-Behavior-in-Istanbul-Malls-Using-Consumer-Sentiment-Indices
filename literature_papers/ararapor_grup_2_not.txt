@@ -1,3 +1,5 @@
+literatür taraması okuma esnasında alınan notlar (ara raporda bahsedilenler, finalde detaylı değinilecek)
+
 LUDVIGSON
 
 University of Michigan ve conference board survey confidence indeksini kullanıyorlar ama çok az soru var bunda. benim kullandığım indeksler daha kapsamlı data topluyor .
